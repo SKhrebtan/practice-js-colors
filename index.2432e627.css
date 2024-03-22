@@ -1,0 +1,2 @@
+.li{width:calc(25% - 7.5px);position:relative;overflow:hidden}.li:before{content:"";background-color:inherit;padding-top:100%;display:block}@media screen and (min-width:480px){.li{width:calc(8.33333% - 9.16667px);position:relative;overflow:hidden}}.list{flex-wrap:wrap;gap:10px;padding-left:10px;padding-right:10px;list-style:none;display:flex}.text{text-align:center;margin-top:10px;margin-bottom:10px;font-size:32px;font-weight:500}.selected{outline-offset:4px;outline:2px solid #000}
+/*# sourceMappingURL=index.2432e627.css.map */
