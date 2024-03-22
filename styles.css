@@ -1,0 +1,43 @@
+
+
+.li {
+    width: calc((100% - 30px) / 4);
+    position: relative;
+    overflow: hidden;
+}
+
+.li::before {
+    content: "";
+    display: block;
+    padding-top: 100%;
+    background-color: inherit;
+    /* Колір фону блоку */
+}
+@media screen and (min-width:480px) {
+    .li {
+        width: calc((100% - 110px) / 12);
+        position: relative;
+        overflow: hidden;
+    }
+}
+.list {
+    padding-left:10px;
+    padding-right: 10px;
+    list-style: none;
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+
+.text{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    text-align: center;
+    font-size: 32px;
+    font-weight: 500;
+}
+
+.selected {
+    outline: 2px solid black;
+outline-offset: 4px;
+}
